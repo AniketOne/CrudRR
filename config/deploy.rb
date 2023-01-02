@@ -4,7 +4,7 @@ lock "~> 3.17.1"
 set :application, 'ex'
 set :repo_url, 'git@github.com:AniketOne/CrudRR.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/'
+set :deploy_to, '/home/deploy/ex'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
