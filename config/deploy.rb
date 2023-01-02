@@ -2,7 +2,7 @@
 lock "~> 3.17.1"
 
 set :application, 'ex'
-set :repo_url, 'git@github.com:AniketOne/FirstDeploy.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:AniketOne/CrudRR.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/ex'
 set :pty, true
